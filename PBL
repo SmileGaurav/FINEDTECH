@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinEdTech</title>
+     <style>
+ul {
+    margin: 0;
+    display: inline;
+    list-style: none;
+}
+li{
+    margin: 20px;
+    float: left;
+    margin-right: 50px;
+    color: wheat;
+    cursor: pointer;
+}
+.navbar {
+    padding: 25px 20px;
+    width: 100%;
+    height: 20px;
+    background: #000;
+}
+#search{
+    margin: 20px;
+    float: right;
+    margin-right: 50px;
+    color: wheat;
+    font-size: 10px;
+    cursor:pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.info{
+        padding: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-columns: minmax(50px, auto);
+        grid-gap: 20px;
+        float: left;
+}
+.img1{
+    size: 30px;
+    border-radius: 10px;
+}
+li:hover{
+    color: #FF0099;
+}
+ </style>
+</head>
+<body>
+   <nav>
+     <div class="navbar">
+      <ul>
+        <li>Home</li>
+        <li>Simulation</li>
+        <li>Learn</li>
+        <li>Feedback</li>
+        <li id="search">
+          <select name="search" id="">
+            <option value="">Search for Stocks,bonds etc.</option>
+            <option value="TATA">TATA Motors</option>
+            <option value="ITC">ITC</option>
+            <option value="INFY">Infy</option>
+          </select>
+        </li>
+      </ul>
+     </div>
+   </nav>
+   <div class="info">
+     <div id="item1">Equity, typically referred to as shareholders' equity (or owners' equity for privately held companies), represents the amount of money that would be returned to a company's shareholders if all of the assets were liquidated and all of the company's debt was paid off in the case of liquidation. In the case of acquisition, it is the value of company sales minus any liabilities owed by the company not transferred with the sale.</div>
+     <div id="item2">A mutual fund is a type of financial vehicle made up of a pool of money collected from many investors to invest in securities like stocks, bonds, money market instruments, and other assets. Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors. A mutual fund's portfolio is structured and maintained to match the investment objectives stated in its prospectus.</div>
+     <div id="item3">Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets.</div>
+     <div id="item4">Non-fungible tokens (NFTs) are cryptographic assets on a blockchain with unique identification codes and metadata that distinguish them from each other. Unlike cryptocurrencies, they cannot be traded or exchanged at equivalency. This differs from fungible tokens like cryptocurrencies, which are identical to each other and, therefore, can serve as a medium for commercial transactions.</div> 
+   </div>
+   <div class="img1">
+    <img src="C:\Users\om\Desktop\web d\pbl\equity.jpg" alt="">
+   </div>
+</body>
+</html>
